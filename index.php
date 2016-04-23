@@ -46,7 +46,7 @@
 		try {
 		  $response = $fb->get('/me?fields=email,name');
 		  $userNode = $response->getGraphUser();
-		}emcatch(Facebook\Exceptions\FacebookResponseException $e) {
+		}catch(Facebook\Exceptions\FacebookResponseException $e) {
 		  // When Graph returns an error
 		  echo 'Graph returned an error: ' . $e->getMessage();
 		  exit;
