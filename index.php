@@ -9,11 +9,11 @@
 
 	# Set the default parameters
 	$fb = new Facebook\Facebook([
-	  'app_id' => '164735766925437',
-	  'app_secret' => 'f995936dfc78e3057fdaca03fc470fe9',
+	  'app_id' => 'YOUR_APP_ID',
+	  'app_secret' => 'YOUR_APP_SECRET',
 	  'default_graph_version' => 'v2.5',
 	]);
-	$redirect = 'http://packetcode.com/apps/fblogin5/';
+	$redirect = 'YOUR_REDIRECT_URL';
 
 
 	# Create the login helper object
